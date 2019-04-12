@@ -40,7 +40,7 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     hostname: 'localhost',
-                    port:8080 ,
+                    port:3000,
                     livereload: true
                 }
             }

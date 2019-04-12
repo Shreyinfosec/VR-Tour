@@ -1,0 +1,34 @@
+<body id="full">
+  <div id="binocular" data-ng-controller="vrCtrl">
+
+    <div id="map1">
+      <div id="oval-box">
+        <ng-map id="leftMap" zoom="20" center="30.770595,76.57460">
+        <marker position="[30.770595,76.57460]" title="hello" icon="https://i.postimg.cc/v8LCr47Y/chandigarh-university.png" animation="Animation.BOUNCE"></marker>
+        <marker position="[30.7524071,76.8006932]" title="marker" icon="https://i.postimg.cc/15vTdbYb/rock-garden.png" animation="Animation.BOUNCE"></marker>
+        <marker position="[15.3350132,76.4578353]" title="drag me" icon="https://i.postimg.cc/Qx8w0jSp/hampi-temple.png" animation="Animation.BOUNCE"></marker>
+        <marker position="[19.9427145,75.210962]" title="how" icon="hhttps://i.postimg.cc/W1tKcSBz/dev-giri-temple.png" animation="Animation.BOUNCE"></marker>
+        <marker position="[15.4008674,73.8981735]" title="you" icon="https://i.postimg.cc/JzgFrZ8q/shanta-durga-temple.png" animation="Animation.BOUNCE"></marker>
+        <street-view-panorama container="leftView"
+          pov="pov"></street-view-panorama>
+      </ng-map>
+    </div>
+      <div id="leftView"></div>
+    </div>
+    <div class="divider"></div>
+    <div id="map2">
+      <div id="oval-box">
+        <ng-map id="rightMap" zoom="20" center="30.770595,76.57460">
+        <marker position="[30.770595,76.57460]" title="hello" icon="https://i.postimg.cc/v8LCr47Y/chandigarh-university.png" animation="Animation.BOUNCE"></marker>
+        <marker position="[30.7524071,76.8006932]" title="marker" icon="https://i.postimg.cc/15vTdbYb/rock-garden.png" animation="Animation.BOUNCE"></marker>
+        <marker position="[15.3350132,76.4578353]" title="drag me" icon="https://i.postimg.cc/Qx8w0jSp/hampi-temple.png" animation="Animation.BOUNCE"></marker>
+        <marker position="[19.9427145,75.210962]" title="how" icon="hhttps://i.postimg.cc/W1tKcSBz/dev-giri-temple.png" animation="Animation.BOUNCE"></marker>
+        <marker position="[15.4008674,73.8981735]" title="you" icon="https://i.postimg.cc/JzgFrZ8q/shanta-durga-temple.png" animation="Animation.BOUNCE"></marker>
+        <street-view-panorama container="rightView"
+          pov="pov"></street-view-panorama>
+      </ng-map>
+      </div>
+      <div id="rightView"></div>
+    </div>
+  </div>
+</body>
